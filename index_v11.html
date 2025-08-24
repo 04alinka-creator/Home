@@ -1,0 +1,169 @@
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Алина Лилиановна — дом в себе</title>
+    <meta name="description" content="10 лет вдохновляю людей, 200К+ аудитории, 1000+ клиентов. Клуб «От Сердца к Миру», Telegram и YouTube.">
+    <meta property="og:title" content="Алина Лилиановна — дом в себе">
+    <meta property="og:description" content="Вернуть связь с собой, проявиться и жить ярко.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+:root{--bg:#f7f5f2;--paper:#fffdf9;--text:#1c1a19;--muted:#6b6762;--accent:#7a2e2e;--coffee:#4b3825;--line:#e9e4db;--shadow:0 8px 30px rgba(0,0,0,.08)}
+*{box-sizing:border-box}html,body{margin:0;padding:0}html{scroll-behavior:smooth}
+@font-face{font-family:'KobzarScript';src:url('assets/kobzar.woff2?v=3') format('woff2'),url('assets/kobzar.otf?v=3') format('opentype');font-display:swap}
+body{font-family:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial,'Noto Sans';background:var(--bg);color:var(--text);line-height:1.6}
+.container{max-width:1040px;margin:0 auto;padding:20px}
+header{background:transparent;border-bottom:0}.header-inner{display:flex;align-items:center;justify-content:flex-start;padding:8px 0}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text)}
+.brand .logo{width:32px;height:32px;border-radius:10px;background:linear-gradient(180deg,var(--accent),var(--coffee));box-shadow:var(--shadow)}
+.brand .name{font-weight:800;letter-spacing:.4px}
+.btn{display:inline-block;border:1.5px solid var(--text);padding:12px 18px;border-radius:999px;text-decoration:none;color:var(--text);font-weight:700;transition:.2s}
+.btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.btn-accent{background:var(--accent);border-color:var(--accent);color:#fff}
+.hero{padding:18px 0}.hero-card{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.hero img{width:100%;height:520px;object-fit:cover;display:block}
+.motto{margin:0;padding:12px 14px 18px}
+.motto .scribble{font-family:'KobzarScript'!important,cursive;font-family:'KobzarScript'!important,cursive;font-size:38px;line-height:1.1;color:var(--coffee);font-weight:400}
+.section{padding:36px 0}
+.section .title{font-family:'KobzarScript'!important,cursive;font-family:'KobzarScript'!important,cursive;font-size:36px;line-height:1.1;margin:0 0 14px;color:var(--coffee);font-weight:400}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
+.kpis{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;margin-top:8px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-align:center}
+.kpi .num{font-weight:800;font-size:28px}.kpi .cap{font-size:13px;color:var(--muted)}
+.interactions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.value-lines{display:grid;grid-template-columns:1fr;gap:6px}
+.value-line{display:grid;grid-template-columns:220px 1fr;gap:16px;align-items:start;padding:12px 0;border-bottom:1px solid var(--line)}
+.value-line:last-child{border-bottom:none}
+.value-label{font-family:'KobzarScript'!important,cursive;font-size:28px;color:var(--coffee);font-weight:400}
+.value-text{color:var(--text)}
+/* WHY unified list */
+.why-card ul{margin:0;padding-left:20px}
+.why-card li{margin:8px 0}
+.why-card b{font-weight:800}
+/* Testimonials carousel */
+.carousel{position:relative;overflow:hidden}/* keep container clean */
+.carousel-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;gap:0}
+.slide{flex:0 0 100%;min-width:100%;box-sizing:border-box;scroll-snap-align:start}
+.slide{flex:0 0 100%;min-width:100%;box-sizing:border-box;scroll-snap-align:start}
+.quote{background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:18px}
+.q-meta{font-size:13px;color:var(--muted);margin-top:6px}
+.ctrl{position:absolute;top:50%;transform:translateY(-50%);background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:999px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.ctrl.left{left:6px}.ctrl.right{right:6px}
+.dots{display:flex;gap:6px;justify-content:center;margin-top:10px}
+.dot{width:8px;height:8px;border-radius:999px;background:#d3cec5;border:1px solid #b9b4aa}
+.dot.active{background:var(--coffee)}
+.small{font-size:14px;color:var(--muted)}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+footer{padding:40px 0;color:var(--muted)}hr.sep{border:none;border-top:1px solid var(--line);margin:32px 0}
+@media (max-width:920px){
+  .interactions{grid-template-columns:1fr}
+  .kpis{grid-template-columns:1fr 1fr}
+  .hero img{height:420px}
+  .motto .scribble{font-family:'KobzarScript'!important,cursive;font-size:32px}
+  .value-line{grid-template-columns:1fr}
+}
+</style>
+  
+<link rel="preload" href="assets/kobzar.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/kobzar.otf" as="font" type="font/otf" crossorigin>
+
+</head>
+  <body>
+    <header>
+      <div class="container header-inner">
+        <a class="brand" href="#top">
+          <div class="logo"></div>
+          <div class="name">Алина Лилиановна</div>
+        </a>
+      </div>
+    </header>
+
+    <main class="container" id="top">
+      <section class="hero">
+        <div class="hero-card">
+          <img src="assets/hero.jpg" alt="Алина Лилиановна">
+          <div class="motto"><div class="scribble">Твоя проявленность начинается внутри.</div></div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <h2 class="title">Обо мне</h2>
+        <div class="card">
+          <p>Я Алина, в сети — Лилиановна. Создаю тёплое и честное пространство, где безопасно вернуть связь со своей душой и позволить себе проявляться такой, какая ты есть. Мой подход — просто о сложном, где любой инструмент знакомит тебя с собой и помогает притянуть желаемое.</p>
+          <div class="kpis">
+            <div class="kpi"><div class="num">10 лет</div><div class="cap">вдохновляю и веду людей</div></div>
+            <div class="kpi"><div class="num">200К+</div><div class="cap">аудитории в соцсетях</div></div>
+            <div class="kpi"><div class="num">1000+</div><div class="cap">довольных клиентов</div></div>
+            <div class="kpi"><div class="num">ICF</div><div class="cap">коуч и создатель «Места силы»</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="interact">
+        <h2 class="title">Как со мной взаимодействовать</h2>
+        <div class="interactions">
+          <div class="card">
+            <h3>Telegram</h3>
+            <p>Ежедневные выжимки, тепло и анонсы. Если хочешь познакомиться ближе — начни здесь.</p>
+            <a class="btn" href="https://t.me/li_lianovna" target="_blank" rel="noopener">Открыть Telegram</a>
+          </div>
+          <div class="card">
+            <h3>YouTube</h3>
+            <p>Длинные тёплые видео про восстановление, смысл и путь к себе.</p>
+            <a class="btn" href="https://youtube.com/channel/UCG7Qxlq58TVBWlCNkJrIUpw?si=eYgIk-cs7oHS-wNF" target="_blank" rel="noopener">Открыть YouTube</a>
+          </div>
+          <div class="card">
+            <h3>Клуб «От Сердца к Миру»</h3>
+            <p>Разговоры о важном с простыми и рабочими практиками. Ежемесячная подписка для ежедневных маленьких шагов. Комьюнити для ярких душ.</p>
+            <a class="btn btn-accent" href="https://t.me/tribute/app?startapp=sz0K" target="_blank" rel="noopener">Вступить в Место Силы!</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="values">
+        <h2 class="title">Мои ценности</h2>
+        <div class="card value-lines"><div class="value-line"><div class="value-label">Предназначение</div><div class="value-text">Учимся понимать себя и распознавать огонёк внутри.</div></div><div class="value-line"><div class="value-label">Энергия</div><div class="value-text">Убираем страхи и блоки, чтобы разблокировать ресурс.</div></div><div class="value-line"><div class="value-label">Проявленность</div><div class="value-text">Экологичный план реализации: кайф от процесса и классные результаты.</div></div><div class="value-line"><div class="value-label">Любовь</div><div class="value-text">С нежностью служим миру — наш огонёк зажигает других.</div></div><div class="value-line"><div class="value-label">Полнота</div><div class="value-text">Живём ярко, создаём прекрасные моменты вместе.</div></div></div>
+      </section>
+
+      <section class="section" id="why">
+        <h2 class="title">Почему выбирают меня</h2>
+        <div class="card why-card">
+          <ul><li><b>Просто о сложном.</b> Чистый поток без воды — ясно и по-взрослому.</li><li><b>Голос‑опора.</b> Со мной становится тепло и спокойно — нервная система выдыхает.</li><li><b>Состояние, не теория.</b> Не только знания: растёт ресурс, энергия и ясность.</li><li><b>Бережная прямота.</b> Честно, уважительно, без токсика и насилия над собой.</li><li><b>Шаги, которые тянут.</b> Короткие практики «включил и поехали» и поддерживающее комьюнити.</li></ul>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <h2 class="title">Отзывы</h2>
+        <div class="carousel" id="ts">
+          <div class="carousel-track">
+            <div class="slide"><div class="quote"><p>«Рядом с тобой людям становится лучше. Твой голос добрый и радостный — цепляешь и зажигаешь.»</p><div class="q-meta">— Участница клуба</div></div></div><div class="slide"><div class="quote"><p>«Идти даже не задумываясь: это изменит жизнь. Лучший курс из всех, что я проходила.»</p><div class="q-meta">— Выпускница курса</div></div></div><div class="slide"><div class="quote"><p>«Сложился план и структура, пришли первые заказы — разрешила себе творить и получать удовольствие.»</p><div class="q-meta">— После практик</div></div></div><div class="slide"><div class="quote"><p>«Получилось раскрыть свой дар. Познала себя заново — поток идёт и жизнь оживает.»</p><div class="q-meta">— Индивидуальная работа</div></div></div><div class="slide"><div class="quote"><p>«Даёшь полезную информацию — я наполнена благодарностью. С тобой хочется расти.»</p><div class="q-meta">— После совместной работы</div></div></div>
+          </div>
+          <button class="ctrl left" aria-label="Назад" id="prev">‹</button>
+          <button class="ctrl right" aria-label="Вперёд" id="next">›</button>
+        </div>
+        <div class="dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+      </section>
+
+      <section class="section faq">
+        <h2 class="title">Вопросы и ответы</h2>
+        <details><summary>Что, если у меня нет сил вообще?</summary><p>Тогда тебе особенно подойдёт клуб: всё «включил и поехали». Без героизма, маленькими шагами.</p></details>
+        <details><summary>Сколько времени это занимает?</summary><p>От 5 до 15 минут в день. Регулярность важнее объёма.</p></details>
+        <details><summary>Если не зайдёт — что дальше?</summary><p>Останешься в Telegram-канале: там выжимки и поддержка. Можно вернуться позже.</p></details>
+        <details><summary>Как оплатить и отменить подписку?</summary><p>Оплата и управление подпиской происходят через Tribute в Telegram.</p></details>
+      </section>
+
+      <hr class="sep">
+      <footer>
+        <div class="small">Контакты: <a href="mailto:04alinka@gmail.com">04alinka@gmail.com</a><br>© 2025 Алина Лилиановна.</div>
+      </footer>
+    </main>
+
+    
+  </body>
+</html>
